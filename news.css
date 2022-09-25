@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(/Thumblins/41075.webp);
+  background-position: center;
+  background-size: cover;
+  height: 109vh;
+}
+
+.navbar {
+  width: 1200;
+  height: 75px;
+  margin: auto;
+}
+
+.icon-icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #ff7200;
+  font-size: 35px;
+  font-family: Arial;
+  padding-left: 20px;
+  float: left;
+  padding-top: 10px;
+}
+
+.icon-icon i {
+  font-size: 25px;
+  float: left;
+  margin-top: 20px;
+}
+
+.menu {
+  width: 400px;
+  float: right;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 20px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+ul li a:active {
+  color: rgb(2, 2, 55);
+}
+
+.search {
+  width: 330px;
+  float: right;
+  margin-top: 27px;
+  display: flex;
+}
+
+.srch {
+  font-family: "Times New Roman";
+  width: 200px;
+  border: 1px solid #fff;
+  vertical-align: top;
+  color: #fff;
+  background-color: black;
+  border-right: none;
+  font-size: 16px;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-left: 5px;
+  vertical-align: top;
+}
+
+.btn {
+  background: #ff7200;
+  border: 2px solid #ff7200;
+  color: #fff;
+  font-size: 15px;
+  padding: 10px;
+  padding: 10px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.content {
+  width: 1200px;
+  height: auto;
+  margin-top: 150px;
+  float: right;
+  color: #fff;
+  position: relative;
+  line-height: 25px;
+}
+
+.content h1 {
+  font-family: Arial;
+  font-weight: 700px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  line-height: 35px;
+}
+
+.content p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.content span {
+  color: #ff7200;
+  font-size: 40px;
+}
+
+.content .btn {
+  width: 100px;
+  height: 30px;
+  background: #ff7200;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  padding: 10px;
+  transition: 0.4s ease;
+}
+
+.content .btn a {
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  text-align: center;
+  transition: 3s ease;
+}
+
+.btn:hover {
+  background-color: black;
+  color: white;
+}
+
+.form {
+  width: 250px;
+  height: 400px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 8) 50%,
+    rgba(0, 0, 0, 8) 50%
+  );
+  position: absolute;
+  right: 70px;
+  border-radius: 10px;
+  padding: 25px;
+  margin-top: 145px;
+}
+
+.form h2 {
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #ff7200;
+  font-size: 22px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+}
+
+.form input {
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid #ff7200;
+  border-right: none;
+  border-left: none;
+  border-top: none;
+  color: #fff;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  font-family: sans-serif;
+}
+
+.form input:focus {
+  outline: none;
+}
+
+::placeholder {
+  color: #fff;
+  font-family: Arial;
+}
+
+.btn-btn {
+  width: 240px;
+  height: 40px;
+  background: #ff7200;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.4s ease;
+}
+
+.btn-btn:hover {
+  background: #fff;
+  color: #ff7200;
+}
+
+.btn-btn a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+.form .link {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.form .link a {
+  text-decoration: none;
+  color: #ff7200;
+  margin-left: 5px;
+}
+
+.liw {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.icon i {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 12px;
+  padding-top: 5px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+.icon i:hover {
+  color: #ff7200;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.footer h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  padding-top: 20px;
+}
